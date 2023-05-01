@@ -12,7 +12,7 @@
 
 html,
 body {
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 p {
@@ -142,6 +142,11 @@ aside p {
 .cont {
     background-color: rgba(255, 255, 255, .8);
     padding: 10px 15px;
+    /* height: 100vh; */
+    height: 100%;
+}
+
+.cont_wholePage {
     height: 100vh;
 }
 
@@ -152,7 +157,7 @@ aside p {
 
 .cont h2 {
     width: 100%;
-    height: 15%;
+    height: 5%;
     display: block;
 }
 
@@ -164,8 +169,26 @@ aside p {
     display: block;
 }
 
-/* boton */
+.grid_container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    width: 100%;
+    grid-auto-rows: auto;
+    grid-auto-flow: dense;
 
+}
+
+.grid-item {
+    background-color: transparent;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+
+/* boton */
 .boton {
     padding: 5px 5px;
     position: fixed;
@@ -192,7 +215,6 @@ aside p {
 }
 
 /* la app */
-
 .cont .contenedor {
     display: flex;
     flex-direction: column;
@@ -208,4 +230,50 @@ aside p {
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
+}
+
+/* Medias */
+
+@media screen and (max-width: 768px) {
+    .grid_container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    nav {
+        margin: 5px;
+        /* text-align: center; */
+        background-color: rgba(255, 0, 0, 0.521) ;
+    }
+
+    nav a{
+        font-size: 95%;
+    }
+
+    nav li {
+        display: inline-block;
+        margin: 0 5px 0 5px;
+    }
+
+    .banner h1 {
+        font-size: 55px;
+        color: white;
+        text-shadow: 5px 10px 2px black;
+        letter-spacing: 4px;
+        align-self: center;
+    }
+
+    .foto {
+        display: none;
+    }
+
+    .foot h2{
+        font-size: 50%;
+    }
+
+    .bi-cloud-arrow-up-fill {
+        font-size: 150%;
+        color: orange;
+        
+    }
+
 }
