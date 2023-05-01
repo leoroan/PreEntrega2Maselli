@@ -138,21 +138,17 @@
             </ul>
         </nav>
         <h2 class=""> contactame, cuentame que te gustaria agregar/cambiar!</h2>
-        <form class="contact_form" action="post">
-            <fieldset>
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" placeholder="tu nombre!" required><br>
-
-                <label for="apellido">Apellido:</label>
-                <input type="text" id="apellido" name="apellido" placeholder="tu apelldio" required><br>
-
-                <label for="mensaje">Mensaje:</label>
-                <textarea id="mensaje" name="mensaje" placeholder=" tu mensaje importante!" required></textarea><br>
-
-                <input type="submit" value="Mandámelo">
-            </fieldset>
+        <form class="contact-form">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <button type="submit">Enviar</button>
         </form>
     </section>
+
 
     <a href="#" class="boton"> <i class="bi bi-cloud-arrow-up-fill"></i></a>
 
