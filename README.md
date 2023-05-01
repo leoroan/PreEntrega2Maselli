@@ -1,5 +1,5 @@
 proyecto de desarrollo web-app
-- Herramienta "financie", que nos permita realizar calculos y vizualizaciones de inversiones a diferentes plazos y con diversas tasas.
+- Herramienta "financiera", que nos permita realizar calculos y vizualizaciones de inversiones a diferentes plazos y con diversas tasas.
 - Ajustado a valores reales
 - Posibilidad a futuro de individualizar la informacion o la persistencia de datos para mejores calculos o resultados.
 

@@ -10,6 +10,11 @@
     display: none;
 }
 
+html,
+body {
+    overflow: hidden;
+}
+
 p {
     text-shadow: 2px 2px 2px black;
     font-size: 25px;
@@ -71,12 +76,12 @@ main .mainAside {
     padding: 10px 15px;
     text-align: center;
     font-size: 32px;
-    
+
 }
 
 aside p {
     font-size: 2rem;
-    text-shadow: 3px 3px 5px black, 3px 3px 5px black,3px 3px 5px black;
+    text-shadow: 3px 3px 5px black, 3px 3px 5px black, 3px 3px 5px black;
 }
 
 /* banner */
@@ -117,12 +122,11 @@ aside p {
     font-size: 95px;
     color: white;
     text-shadow: 5px 10px 2px black;
-    letter-spacing: 5px;
+    letter-spacing: 4px;
     align-self: center;
 }
 
 /* footer */
-
 .foot {
     width: 100%;
     bottom: 0;
@@ -135,7 +139,6 @@ aside p {
 }
 
 /*  areas  */
-
 .cont {
     background-color: rgba(255, 255, 255, .8);
     padding: 10px 15px;
@@ -180,7 +183,7 @@ aside p {
 .bi-cloud-arrow-up-fill:active {
     transform: scale(0.95);
     opacity: 0.5;
-  }
+}
 
 
 /* form */
