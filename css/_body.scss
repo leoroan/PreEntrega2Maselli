@@ -4,6 +4,7 @@
 @mixin estilo_base {
   body {
     background-image: url(../Images/mi_fancy_fondo.jpg);
+    background-size: cover;
   }
 
   main {

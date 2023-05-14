@@ -612,6 +612,7 @@ nav li {
 }
 html body {
   background-image: url(../Images/mi_fancy_fondo.jpg);
+  background-size: cover;
 }
 html main {
   height: 100vh;
