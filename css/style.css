@@ -52,6 +52,10 @@ h2 {
   opacity: 0.5;
 }
 
+.pushB {
+  animation-iteration-count: infinite;
+}
+
 .grid_container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
