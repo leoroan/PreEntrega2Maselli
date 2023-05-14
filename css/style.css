@@ -1,3 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Alkatra, serif;
+  font-size: 20px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+p {
+  text-shadow: 2px 2px 4px #000, 2px 2px 4px #000, 2px 2px 4px #000;
+  font-size: 35px !important;
+  color: #ccbbbb;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  color: #fff;
+  text-shadow: 2px 2px 3px #000;
+  font-size: 35px !important;
+  color: #ccbbbb;
+}
+
+h2 {
+  color: #fff;
+  text-shadow: 2px 2px 4px #000, 2px 2px 4px #000, 2px 2px 4px #000;
+  font-size: 35px !important;
+  color: #ccbbbb;
+}
+
+/* boton */
+.boton {
+  padding: 5px 5px;
+  position: fixed;
+  bottom: 10px;
+  right: 70px;
+  /* Click effect */
+}
+.boton .bi-cloud-arrow-up-fill {
+  font-size: 50px;
+  color: #87ceeb;
+  text-shadow: 2px 2px 3px black, 2px 2px 3px black;
+}
+.boton:active .bi-cloud-arrow-up-fill {
+  transform: scale(0.95);
+  opacity: 0.5;
+}
+
+.grid_container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+}
+.grid_container .grid-item {
+  background-color: transparent;
+  padding: 10px;
+  text-align: center;
+}
+
+/* areas con GRID */
+.cont {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px 15px;
+  height: 100vh;
+}
+.cont p {
+  width: 100%;
+  display: block;
+}
+.cont h2 {
+  width: 100%;
+}
+.cont span {
+  color: red;
+  font-size: 25px;
+  display: block;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -308,42 +393,6 @@ template {
   display: none;
 }
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: Alkatra, serif;
-  font-size: 20px;
-}
-
-::-webkit-scrollbar {
-  display: none;
-}
-
-p {
-  text-shadow: 2px 2px 4px #000, 2px 2px 4px #000, 2px 2px 4px #000;
-  font-size: 35px !important;
-  color: #ccbbbb;
-}
-
-a {
-  text-decoration: none;
-}
-
-h1 {
-  color: #fff;
-  text-shadow: 2px 2px 3px #000;
-  font-size: 35px !important;
-  color: #ccbbbb;
-}
-
-h2 {
-  color: #fff;
-  text-shadow: 2px 2px 4px #000, 2px 2px 4px #000, 2px 2px 4px #000;
-  font-size: 35px !important;
-  color: #ccbbbb;
-}
-
 nav {
   margin: 25px;
   text-align: center;
@@ -440,54 +489,6 @@ section a img {
 }
 .foot h2 {
   text-shadow: 2px 2px 3px black, 2px 2px 3px black;
-}
-
-/* areas con GRID */
-.cont {
-  background-color: rgba(255, 255, 255, 0.8);
-  padding: 10px 15px;
-}
-.cont p {
-  width: 100%;
-  display: block;
-}
-.cont h2 {
-  width: 100%;
-}
-.cont span {
-  color: red;
-  font-size: 25px;
-  display: block;
-}
-
-.grid_container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  gap: 10px;
-}
-.grid_container .grid-item {
-  background-color: transparent;
-  padding: 10px;
-  text-align: center;
-}
-
-/* boton */
-.boton {
-  padding: 5px 5px;
-  position: fixed;
-  bottom: 10px;
-  right: 70px;
-  /* Click effect */
-}
-.boton .bi-cloud-arrow-up-fill {
-  font-size: 50px;
-  color: #87ceeb;
-  text-shadow: 2px 2px 3px black, 2px 2px 3px black;
-}
-.boton:active .bi-cloud-arrow-up-fill {
-  transform: scale(0.95);
-  opacity: 0.5;
 }
 
 .contact-form-container {

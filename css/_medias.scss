@@ -1,0 +1,103 @@
+
+/* Medias */
+
+@media screen and (max-width: 768px) {
+
+  html,
+  body {
+    overflow: visible;
+  }
+
+  #pag2 p {
+    font-size: 1rem !important;
+  }
+
+  .laapp,
+  .acercade,
+  .mascosas,
+  .contacto {
+    /* border: 2px solid red; */
+    height: 100%;
+  }
+
+  .grid_container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  section .grid_container {
+    height: auto;
+  }
+
+  nav {
+    margin: 5px;
+    /* text-align: center; */
+    background-color: rgba(75, 200, 209, 0.521);
+  }
+
+  nav a {
+    font-size: 95% !important;
+  }
+
+  nav li {
+    display: inline-block;
+    margin: 0 5px 0 5px;
+  }
+
+  .banner h1 {
+    font-size: 35px !important;
+    color: rgb(86, 168, 86);
+    text-shadow: 5px 10px 2px black;
+    letter-spacing: 4px;
+    align-self: center;
+  }
+
+  .foto {
+    display: none;
+  }
+
+  .foot h2 {
+    font-size: 60% !important;
+    text-align: left;
+  }
+
+  .bi-cloud-arrow-up-fill {
+    font-size: 250% !important;
+    color: rgb(39, 143, 161) !important;
+  }
+
+  section>a>img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .contact-form {
+    width: 120%;
+  }
+
+  @media screen and (min-width: 769px) and (max-width: 1000px) {
+
+    .grid_container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    section>a>img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .bi-cloud-arrow-up-fill {
+      font-size: 5% !important;
+      color: rgb(39, 143, 161) !important;
+    }
+
+    .foot {
+      display: none;
+    }
+  }
+}

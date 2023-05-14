@@ -1,0 +1,16 @@
+$primary-color: #ccbbbb;
+$secondary-color: #87ceeb;
+$tertiary-color: #556b2f;
+
+$black: #000;
+$white: #fff;
+
+$shadow: 2px 2px 4px $black, 2px 2px 4px $black, 2px 2px 4px $black;
+$font-family: Alkatra, serif;
+$font-size: (
+  "small": 10px,
+  "medium": 20px,
+  "mediumPlus" : 25px,
+  "large": 35px,
+  "veryLarge" : 75px
+);

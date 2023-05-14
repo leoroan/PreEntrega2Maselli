@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: $font-family;
+  font-size: map-get($font-size, "medium");
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+p {
+  text-shadow: $shadow;
+  font-size: map-get($font-size, "large") !important;
+  color: $primary-color;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  color: $white;
+  text-shadow: 2px 2px 3px $black;
+  font-size: map-get($font-size, "large") !important;
+  color: $primary-color;
+}
+
+h2 {
+  color: $white;
+  text-shadow: $shadow;
+  font-size: map-get($font-size, "large") !important;
+  color: $primary-color;
+}
+
+
+/* boton */
+.boton {
+  padding: 5px 5px;
+  position: fixed;
+  bottom: 10px;
+  right: 70px;
+
+  .bi-cloud-arrow-up-fill {
+    font-size: 50px;
+    color: $secondary-color;
+    text-shadow: 2px 2px 3px black, 2px 2px 3px black;
+  }
+
+  /* Click effect */
+  &:active .bi-cloud-arrow-up-fill {
+    transform: scale(0.95);
+    opacity: 0.5;
+  }
+}
+
+.grid_container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+
+  .grid-item {
+    background-color: transparent;
+    padding: 10px;
+    text-align: center;
+  }
+}
+
+/* areas con GRID */
+.cont {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px 15px;
+  height: 100vh;
+
+  p {
+    width: 100%;
+    display: block;
+  }
+
+  h2 {
+    width: 100%;
+  }
+
+  span {
+    color: red;
+    font-size: 25px;
+    display: block;
+  }
+}

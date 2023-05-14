@@ -1,0 +1,40 @@
+// body
+body {
+  background-image: url(../Images/mi_fancy_fondo.jpg);
+}
+
+main {
+  height: 100vh;
+
+  .mainAside {
+    // background-color: rgba(255, 255, 255, .6);
+    padding: 10px 15px;
+    text-align: center;
+    font-size: map-get($font-size, "large") !important;
+  }
+}
+
+aside {
+  p {
+    font-size: map-get($font-size, "large") !important;
+    text-shadow: $shadow;
+  }
+}
+
+section {
+  a {
+    img {
+      max-width: 40%;
+      height: auto;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+
+#pag2 {
+  p {
+    font-size: 1.5rem;
+  }
+}
