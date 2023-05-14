@@ -43,7 +43,7 @@ h2 {
 nav {
     margin: 25px;
     text-align: center;
-    /* background-color: rgba(255, 255, 255, .8); */
+    background-color: rgba(255, 255, 255, .8);
 }
 
 nav a {
@@ -137,8 +137,8 @@ section>a>img {
 }
 
 .banner h1 {
-    font-size: 95px;
-    color: white;
+    font-size: 155px;
+    color: green;
     text-shadow: 5px 10px 2px black;
     letter-spacing: 4px;
     align-self: center;
