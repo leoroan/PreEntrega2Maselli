@@ -1,40 +1,43 @@
 // body
-body {
-  background-image: url(../Images/mi_fancy_fondo.jpg);
-}
+// Mixin para el estilo de fondo y tipografía
 
-main {
-  height: 100vh;
-
-  .mainAside {
-    // background-color: rgba(255, 255, 255, .6);
-    padding: 10px 15px;
-    text-align: center;
-    font-size: map-get($font-size, "large") !important;
+@mixin estilo_base {
+  body {
+    background-image: url(../Images/mi_fancy_fondo.jpg);
   }
-}
 
-aside {
-  p {
-    font-size: map-get($font-size, "large") !important;
-    text-shadow: $shadow;
-  }
-}
+  main {
+    height: 100vh;
 
-section {
-  a {
-    img {
-      max-width: 40%;
-      height: auto;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
+    .mainAside {
+      padding: 10px 15px;
+      text-align: center;
+      font-size: map-get($font-size, "large") !important;
     }
   }
-}
 
-#pag2 {
-  p {
-    font-size: 1.5rem;
+  aside {
+    p {
+      font-size: map-get($font-size, "large") !important;
+      text-shadow: $shadow;
+    }
+  }
+
+  section {
+    a {
+      img {
+        max-width: 40%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+  }
+
+  #pag2 {
+    p {
+      font-size: 1.5rem;
+    }
   }
 }

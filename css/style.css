@@ -412,36 +412,6 @@ nav li {
   margin: 0 10px 0 10px;
 }
 
-body {
-  background-image: url(../Images/mi_fancy_fondo.jpg);
-}
-
-main {
-  height: 100vh;
-}
-main .mainAside {
-  padding: 10px 15px;
-  text-align: center;
-  font-size: 35px !important;
-}
-
-aside p {
-  font-size: 35px !important;
-  text-shadow: 2px 2px 4px #000, 2px 2px 4px #000, 2px 2px 4px #000;
-}
-
-section a img {
-  max-width: 40%;
-  height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#pag2 p {
-  font-size: 1.5rem;
-}
-
 /* banner */
 .banner {
   display: flex;
@@ -635,4 +605,29 @@ section a img {
   .foot {
     display: none;
   }
+}
+html body {
+  background-image: url(../Images/mi_fancy_fondo.jpg);
+}
+html main {
+  height: 100vh;
+}
+html main .mainAside {
+  padding: 10px 15px;
+  text-align: center;
+  font-size: 35px !important;
+}
+html aside p {
+  font-size: 35px !important;
+  text-shadow: 2px 2px 4px #000, 2px 2px 4px #000, 2px 2px 4px #000;
+}
+html section a img {
+  max-width: 40%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+html #pag2 p {
+  font-size: 1.5rem;
 }/*# sourceMappingURL=style.css.map */
