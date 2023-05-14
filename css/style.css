@@ -322,7 +322,7 @@ template {
 
 p {
   text-shadow: 2px 2px 4px #000, 2px 2px 4px #000, 2px 2px 4px #000;
-  font-size: 25px;
+  font-size: 35px !important;
   color: #ccbbbb;
 }
 
@@ -333,14 +333,14 @@ a {
 h1 {
   color: #fff;
   text-shadow: 2px 2px 3px #000;
-  font-size: 35px;
+  font-size: 35px !important;
   color: #ccbbbb;
 }
 
 h2 {
   color: #fff;
   text-shadow: 2px 2px 4px #000, 2px 2px 4px #000, 2px 2px 4px #000;
-  font-size: 35px;
+  font-size: 35px !important;
   color: #ccbbbb;
 }
 
@@ -350,7 +350,7 @@ nav {
   background-color: rgba(125, 218, 224, 0.7137254902);
 }
 nav a {
-  font-size: 1.75rem;
+  font-size: 35px !important;
   color: #fff;
   text-shadow: 2px 2px 4px #000, 2px 2px 4px #000, 2px 2px 4px #000;
 }
@@ -373,11 +373,11 @@ main {
 main .mainAside {
   padding: 10px 15px;
   text-align: center;
-  font-size: 32px;
+  font-size: 35px !important;
 }
 
 aside p {
-  font-size: 2rem;
+  font-size: 35px !important;
   text-shadow: 2px 2px 4px #000, 2px 2px 4px #000, 2px 2px 4px #000;
 }
 
@@ -424,7 +424,7 @@ section a img {
   z-index: 2;
 }
 .banner h1 {
-  font-size: 155px;
+  font-size: 155px !important;
   color: rgb(86, 168, 86);
   text-shadow: 5px 10px 2px black;
   letter-spacing: 4px;
@@ -481,7 +481,7 @@ section a img {
   /* Click effect */
 }
 .boton .bi-cloud-arrow-up-fill {
-  font-size: 75px;
+  font-size: 50px;
   color: #87ceeb;
   text-shadow: 2px 2px 3px black, 2px 2px 3px black;
 }
@@ -560,7 +560,7 @@ section a img {
     overflow: visible;
   }
   #pag2 p {
-    font-size: 1rem;
+    font-size: 1rem !important;
   }
   .laapp,
   .acercade,
@@ -581,14 +581,14 @@ section a img {
     background-color: rgba(75, 200, 209, 0.521);
   }
   nav a {
-    font-size: 95%;
+    font-size: 95% !important;
   }
   nav li {
     display: inline-block;
     margin: 0 5px 0 5px;
   }
   .banner h1 {
-    font-size: 35px;
+    font-size: 35px !important;
     color: rgb(86, 168, 86);
     text-shadow: 5px 10px 2px black;
     letter-spacing: 4px;
@@ -598,7 +598,7 @@ section a img {
     display: none;
   }
   .foot h2 {
-    font-size: 60%;
+    font-size: 60% !important;
     text-align: left;
   }
   .bi-cloud-arrow-up-fill {
@@ -628,7 +628,7 @@ section a img {
     margin-right: auto;
   }
   .bi-cloud-arrow-up-fill {
-    font-size: 250%;
+    font-size: 5% !important;
     color: rgb(39, 143, 161) !important;
   }
   .foot {

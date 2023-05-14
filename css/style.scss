@@ -1,4 +1,4 @@
-@import "normalize.scss";
+@import "_normalize.scss";
 
 
 $primary-color: #ccbbbb;
@@ -8,17 +8,24 @@ $tertiary-color: #556b2f;
 $black: #000;
 $white: #fff;
 
-$font-family: Alkatra, serif;
-$font-size: 20px;
-
 $shadow: 2px 2px 4px $black, 2px 2px 4px $black, 2px 2px 4px $black;
+$font-family: Alkatra, serif;
+$font-size: (
+  "small": 10px,
+  "medium": 20px,
+  "mediumPlus" : 25px,
+  "large": 35px,
+  "veryLarge" : 75px
+);
+
+
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: $font-family;
-  font-size: $font-size;
+  font-size: map-get($font-size, "medium");
 }
 
 ::-webkit-scrollbar {
@@ -27,7 +34,7 @@ $shadow: 2px 2px 4px $black, 2px 2px 4px $black, 2px 2px 4px $black;
 
 p {
   text-shadow: $shadow;
-  font-size: 25px;
+  font-size: map-get($font-size, "large") !important;
   color: $primary-color;
 }
 
@@ -38,14 +45,14 @@ a {
 h1 {
   color: $white;
   text-shadow: 2px 2px 3px $black;
-  font-size: 35px;
+  font-size: map-get($font-size, "large") !important;
   color: $primary-color;
 }
 
 h2 {
   color: $white;
   text-shadow: $shadow;
-  font-size: 35px;
+  font-size: map-get($font-size, "large") !important;
   color: $primary-color;
 }
 
@@ -56,7 +63,8 @@ nav {
   background-color: #7ddae0b6;
 
   a {
-    font-size: 1.75rem;
+    font-size: map-get($font-size, "large") !important;
+    ;
     color: $white;
     text-shadow: $shadow;
 
@@ -84,13 +92,13 @@ main {
     // background-color: rgba(255, 255, 255, .6);
     padding: 10px 15px;
     text-align: center;
-    font-size: 32px;
+    font-size: map-get($font-size, "large") !important;
   }
 }
 
 aside {
   p {
-    font-size: 2rem;
+    font-size: map-get($font-size, "large") !important;
     text-shadow: $shadow;
   }
 }
@@ -147,7 +155,7 @@ section {
   }
 
   h1 {
-    font-size: 155px;
+    font-size: 155px !important;
     color: rgb(86, 168, 86);
     text-shadow: 5px 10px 2px black;
     letter-spacing: 4px;
@@ -209,7 +217,7 @@ section {
   right: 70px;
 
   .bi-cloud-arrow-up-fill {
-    font-size: 75px;
+    font-size: 50px;
     color: $secondary-color;
     text-shadow: 2px 2px 3px black, 2px 2px 3px black;
   }
@@ -307,7 +315,7 @@ section {
   }
 
   #pag2 p {
-    font-size: 1rem;
+    font-size: 1rem !important;
   }
 
   .laapp,
@@ -333,7 +341,7 @@ section {
   }
 
   nav a {
-    font-size: 95%;
+    font-size: 95% !important;
   }
 
   nav li {
@@ -342,7 +350,7 @@ section {
   }
 
   .banner h1 {
-    font-size: 35px;
+    font-size: 35px !important;
     color: rgb(86, 168, 86);
     text-shadow: 5px 10px 2px black;
     letter-spacing: 4px;
@@ -354,7 +362,7 @@ section {
   }
 
   .foot h2 {
-    font-size: 60%;
+    font-size: 60% !important;
     text-align: left;
   }
 
@@ -390,8 +398,8 @@ section {
     }
 
     .bi-cloud-arrow-up-fill {
-      font-size: 250%;
-      color: rgb(39, 143, 161) !important;;
+      font-size: 5% !important;
+      color: rgb(39, 143, 161) !important;
     }
 
     .foot {
