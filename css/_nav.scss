@@ -3,10 +3,10 @@ nav {
   margin: 25px;
   text-align: center;
   background-color: #7ddae0b6;
+  transition: transform 0.2s ease-in-out;
 
   a {
     font-size: map-get($font-size, "large") !important;
-    ;
     color: $white;
     text-shadow: $shadow;
 

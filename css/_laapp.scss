@@ -18,3 +18,24 @@
     }
   }
 }
+
+.grid_container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+
+  .grid-item {
+    background-color: transparent;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+
+    &:hover {
+      transform: scale(1.2);
+      transition: transform 0.2s ease-in-out;
+    }
+  }
+
+
+}

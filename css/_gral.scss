@@ -59,19 +59,6 @@ h2 {
   animation-iteration-count: infinite;
 }
 
-.grid_container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  gap: 10px;
-
-  .grid-item {
-    background-color: transparent;
-    padding: 10px;
-    text-align: center;
-  }
-}
-
 /* areas con GRID */
 .cont {
   background-color: rgba(255, 255, 255, 0.8);

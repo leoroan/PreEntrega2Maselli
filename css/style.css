@@ -56,18 +56,6 @@ h2 {
   animation-iteration-count: infinite;
 }
 
-.grid_container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  gap: 10px;
-}
-.grid_container .grid-item {
-  background-color: transparent;
-  padding: 10px;
-  text-align: center;
-}
-
 /* areas con GRID */
 .cont {
   background-color: rgba(255, 255, 255, 0.8);
@@ -401,6 +389,7 @@ nav {
   margin: 25px;
   text-align: center;
   background-color: rgba(125, 218, 224, 0.7137254902);
+  transition: transform 0.2s ease-in-out;
 }
 nav a {
   font-size: 35px !important;
@@ -498,6 +487,13 @@ nav li {
   border-radius: 5px;
   font-size: 1rem;
   background-color: transparent;
+  transition: transform 0.2s ease-in-out;
+}
+.contact-form-container .contact-form input:hover,
+.contact-form-container .contact-form textarea:hover {
+  transform: scale(1.2);
+  transition: transform 0.2s ease-in-out;
+  border: 3px solid #87ceeb;
 }
 .contact-form-container .contact-form button[type=submit] {
   background-color: #87ceeb;
@@ -526,6 +522,23 @@ nav li {
   border: 1px solid #ccc;
   border-radius: 5px;
   font-size: 16px;
+}
+
+.grid_container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+}
+.grid_container .grid-item {
+  background-color: transparent;
+  padding: 10px;
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+}
+.grid_container .grid-item:hover {
+  transform: scale(1.2);
+  transition: transform 0.2s ease-in-out;
 }
 
 /* Medias */
