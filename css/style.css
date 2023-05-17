@@ -515,6 +515,7 @@ nav li {
   align-items: center;
   width: 100%;
   padding: 30px;
+  height: 100%;
 }
 .cont .contenedor input {
   margin-bottom: 10px;
@@ -535,10 +536,21 @@ nav li {
   padding: 10px;
   text-align: center;
   transition: transform 0.2s ease-in-out;
+  background-color: rgba(167, 133, 90, 0.459);
 }
 .grid_container .grid-item:hover {
   transform: scale(1.2);
   transition: transform 0.2s ease-in-out;
+}
+.grid_container .grid-item-1 {
+  background-color: rgba(250, 235, 215, 0.459);
+  grid-column: 1/span 2;
+  /* Ocupa 2 columnas */
+}
+.grid_container .grid-item-2 {
+  background-color: rgba(250, 235, 215, 0.459);
+  grid-column: 3/span 2;
+  /* Ocupa 2 columnas, comienza en la tercera columna */
 }
 
 /* Medias */
@@ -562,6 +574,9 @@ nav li {
   }
   section .grid_container {
     height: auto;
+  }
+  section .grid_container .grid-item {
+    grid-column: 1;
   }
   nav {
     margin: 5px;

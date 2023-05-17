@@ -26,6 +26,10 @@
 
   section .grid_container {
     height: auto;
+
+    .grid-item {
+      grid-column: 1;
+    }
   }
 
   nav {

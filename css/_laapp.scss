@@ -6,6 +6,7 @@
   width: 100%;
   // border: 2px solid black;
   padding: 30px;
+  height: 100%;
 
   // Contenedor
   .contenedor {
@@ -30,11 +31,24 @@
     padding: 10px;
     text-align: center;
     transition: transform 0.2s ease-in-out;
+    background-color: rgba(167, 133, 90, 0.459);
 
     &:hover {
       transform: scale(1.2);
       transition: transform 0.2s ease-in-out;
     }
+  }
+
+  .grid-item-1 {
+    background-color: rgba(250, 235, 215, 0.459);
+    grid-column: 1 / span 2;
+    /* Ocupa 2 columnas */
+  }
+
+  .grid-item-2 {
+    background-color: rgba(250, 235, 215, 0.459);
+    grid-column: 3 / span 2;
+    /* Ocupa 2 columnas, comienza en la tercera columna */
   }
 
 
